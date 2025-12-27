@@ -4,7 +4,7 @@ This is your playground!
 ```
 /*
 Filenamne: hello.s
-minimalistic example of a code written in the x86 assembly language (AT&T syntax)
+example code written in the x86 assembly language (AT&T syntax)
 */
 global:
 	.string "hello%d\n"
