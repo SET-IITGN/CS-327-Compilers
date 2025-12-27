@@ -154,4 +154,4 @@ kuch bhi;
 52
 ```
 ## Observation
-***The way you specify a programming language (syntax + semantics) determines what you deploy in software written in it, including bugs (features).***
+***The way you specify a programming language (syntax + semantics) determines what you deploy through software written in that language, including bugs (features).***
