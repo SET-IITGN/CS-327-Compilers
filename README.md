@@ -1,6 +1,8 @@
-# CS-327-Compilers
+# CS-327-Compilers 
+**Jan-May 2026, IIT Gandhinagar**
 
-You can use these materials to get started for building your own compiler.
+## Getting Started
+You can use the materials (codebase) in this repository to get started for building your own compiler. 
 Two sample language processors (source code + binary) designed by me are available here.
 - **Pro** (```pro```): Scanner, Parser, Analyzer of sentences expressed in Propositional Logic.
 - **language_processor** (```sm```): Scanner, Parser, Analyzer of sentences expressing arithmetic operations in ```bash```.
@@ -83,6 +85,17 @@ Lab Assignments will be linked, i.e., built upon the previous one, and should be
   ```
 
 Software Tools to be used: [```lex```](https://en.wikipedia.org/wiki/Lex_(software)), [```yacc```](https://en.wikipedia.org/wiki/Yacc), [```gcc```](https://en.wikipedia.org/wiki/GNU_Compiler_Collection), [```gas```](https://en.wikipedia.org/wiki/GNU_Assembler), and other relevant tools as and when necessary.
+
+### Texts/References
+- Alfred Aho, Monica Lam, Ravi Sethi, Jeff Ullman. Compilers: Principles, Techniques, and Tools, Pearson Education India; 2nd Edition, 2013.
+- Steven Muchnick, Advanced Compiler Design and Implementation, Morgan Kaufmann; 1st edition 1997.
+- John R. Levine, Tony Mason, and Doug Brown, Lex & Yacc (2nd ed.). O'Reilly & Associates, Inc., USA, 1992.
+- Jonathan Bartlett, Programming from the Ground Up, 2003.
+- Wikibooks, x86 Assembly, GNU assembly syntax (online).
+
+### Learning Outcomes
+Students should understand the basics of programming language design, as well as the execution environment. Students should be able to build a compiler for a subset of a realistic programming language (C/C++/Java), implementing the basic building blocks of a compiler.
+
 
 ### Acknowledgements
 [Rupesh Nasre.](https://www.cse.iitm.ac.in/~rupesh)
