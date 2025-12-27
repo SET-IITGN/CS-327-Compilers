@@ -7,6 +7,10 @@ Two sample language processors (source code + binary) designed by me are availab
 - **Pro** (```pro```): Scanner, Parser, Analyzer of sentences expressed in Propositional Logic.
 - **language_processor** (```sm```): Scanner, Parser, Analyzer of sentences expressing arithmetic operations in ```bash```.
 
+### ANSI C 2011 ISO C standard
+- [ANSI C grammar, Lex specification](https://www.quut.com/c/ANSI-C-grammar-l-2011.html)
+- [ANSI C Yacc grammar](https://www.quut.com/c/ANSI-C-grammar-y-2011.html)
+
 *Lab Assignments will be linked, i.e., built upon the previous one, and should be performed in groups of size at most three. Each group will develop a compiler for a custom language of their choice, or a subset of any popular programming language. Compilation phases collectively implemented (spanning across all four lab assignments) need not be exhaustive.*
 
 ## Our Compilation Pipeline
