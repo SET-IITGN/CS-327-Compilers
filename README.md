@@ -3,7 +3,7 @@
 
 ## Getting Started
 You can use the materials (codebase) in this repository to get started for building your own compiler. 
-Three sample language processors (source code + binary) designed by me are available here.
+Four sample language processors (source code + binary) designed by me are available here.
 - **Pro** (```pro```): Scanner, Parser, Analyzer of sentences expressed in Propositional Logic.
 - **language_processor** (```sm```): Scanner, Parser, Analyzer of sentences expressing arithmetic operations in ```bash```.
 - **mul_add_pred_swap** (```maps```): Scanner, Parser, Analyzer of sentences expressing arithmetic operations with swapped precedence (+,*).
