@@ -11,24 +11,15 @@
 
 %%
 
-Start: 	S {$$=$1;printf("rule used: Start -> S\n");printf("The final output is %d\n",$$);}
+Start:	St {$$=$1;printf("rule used: Start -> St\n");printf("The final output is %d\n",$$);}
 		;
 
-S:		MS {$$=$1;printf("rule used: S -> MS\n");}
-		| OS {$$=$1;printf("rule used: S -> OS\n");}
+St: 	IF E THEN St {$$=($2!=0)?$4:0;$$*=$2;printf("rule used: St -> if E then St\n");}
+		| IF E THEN St ELSE St {$$=($2!=0)?$4:$6;$$*=$2;printf("rule used: St -> if E then St else St\n");}
+		| SEM {$$=1;printf("rule used: St -> ;\n");}
+		| SEM St {$$=$2;printf("rule used: St -> ; St\n");}
+		| LBRACE St RBRACE {$$=$2;printf("rule used: St -> { St }\n");}
 		;
-
-MS: 	IF E THEN MS ELSE MS {$$=($2!=0)?$4:$6;$$*=$2;printf("rule used: MS -> if E then MS else MS\n");}
-		| SEM {$$=1;printf("rule used: MS -> ;\n");}
-		| SEM MS {$$=$2;printf("rule used: MS -> ; MS\n");}
-		| LBRACE MS RBRACE {$$=$2;printf("rule used: MS -> { MS }\n");}
-		;
-		
-OS:		IF E THEN S {$$=($2!=0)?$4:0;$$*=$2;printf("rule used: OS -> if E then S\n");}
-		| IF E THEN MS ELSE OS {$$=($2!=0)?$4:$6;$$*=$2;printf("rule used: OS -> if E then MS else OS\n");}
-		| LBRACE OS RBRACE {$$=$2;printf("rule used: OS -> { OS }\n");}
-		;
-	
 		
 E:		E ADD T {$$=$1+$3;printf("rule used: E -> E + T\n");}
 		| E SUB T {$$=$1-$3;printf("rule used: E -> E - T\n");}
