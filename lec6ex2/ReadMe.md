@@ -484,6 +484,8 @@ rule used: St -> if E then St
 rule used: Start -> St
 The final output is 1008
 ```
+![parse forest](https://github.com/SET-IITGN/CS-327-Compilers/blob/main/lec6ex2/parse_forest.svg)
+
 ## Command-line (test case #2)
 ```
 shouvick@shouvick:~/CS-327-Compilers/lec6ex2$ ./stmt 
