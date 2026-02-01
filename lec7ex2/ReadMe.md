@@ -484,7 +484,7 @@ rule used: St -> if E then St
 rule used: Start -> St
 The final output is 1008
 ```
-![parse forest](https://github.com/SET-IITGN/CS-327-Compilers/blob/main/lec6ex2/parse_forest.svg)
+![parse forest](https://github.com/SET-IITGN/CS-327-Compilers/blob/main/lec7ex2/parse_forest.svg)
 
 ## Command-line (test case #2)
 ```
