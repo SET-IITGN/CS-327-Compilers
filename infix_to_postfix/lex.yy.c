@@ -1,5 +1,5 @@
 
-#line 2 "lex.yy.c"
+#line 3 "lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -447,8 +447,8 @@ char *yytext;
 #line 2 "if2pf.l"
 	#include <stdlib.h>
 	#include "y.tab.h"
-#line 450 "lex.yy.c"
 #line 451 "lex.yy.c"
+#line 452 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -668,7 +668,7 @@ YY_DECL
 #line 6 "if2pf.l"
 
 
-#line 671 "lex.yy.c"
+#line 672 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -771,7 +771,7 @@ YY_RULE_SETUP
 #line 17 "if2pf.l"
 ECHO;
 	YY_BREAK
-#line 774 "lex.yy.c"
+#line 775 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
